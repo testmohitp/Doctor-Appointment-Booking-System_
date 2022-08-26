@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page | sign up</title>
+    <link rel="stylesheet" href="CSS/login.css">
+    <link rel="stylesheet" href="CSS/header.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="images/llll.png" alt="">
+    </div>
+
+    <div class="navbar">
+        <h1>Doctor Appointment Booking System</h1>
+    </div>
+
+    <script type="text/javascript" language="javascript">
+
+        function mytest() {
+            var email1 = document.getElementById("email").value;
+            var pass = document.getElementById("password").value;
+            var emailValid = /[A-z0-9.-]+\.([A-z]{2,})/;
+            var passValid = /^(?=.*\d)(?=.*[!@#$%^&*])(?=.*[a-z])(?=.*[A-Z]).{8,}$/;
+            const button = document.querySelector('button')
+
+            debugger
+            if (!email1.match(emailValid)) {
+                alert("Enter valid user name  !!");
+                return false;
+            }
+            else if (!pass.match(passValid)) {
+                alert("Enter valid password !!");
+                return false;
+            }
+            else {
+                alter("Seccess fully login !");
+            }
+
+        }
+
+    </script>
+    <div class="mid1">
+        <form action="#" >
+            <div class="form1">
+                <label for="name" id="num">Username</label>
+                <input type="email" id="email"  class="fullName"
+                    placeholder="enter email or user name ">
+            </div>
+
+            <br>
+
+            <div class="form1">
+                <label for="age">Password:</label>
+                <input type="password" id="password" placeholder="enter password" class="fullName">
+            </div>
+            <div>
+                <button class="back1" onclick="return mytest()" type="submit"><a href="home.html">Login</a></button>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="for">
+        <a href="#">Forgot Password?</a>
+    </div>
+
+    <div class="dont">
+        <p>Don't have an account?</p><a href="#">Sign up</a>
+    </div>
+
+    <footer>
+        <p>@All rights reserved</p>
+    </footer>
+
+
+</body>
+
+</html>

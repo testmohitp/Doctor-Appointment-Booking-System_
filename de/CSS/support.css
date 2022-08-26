@@ -1,0 +1,115 @@
+.mid{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+}
+
+.help{
+    display: block;
+    text-align: center;
+}
+
+.help p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.go{
+    margin-top: 5px;
+    display: flex;
+}
+
+.help input{
+    width: 200px;
+    height: 20px;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.help button{
+    padding: 5px 10px;
+    width: 50px;
+    height: 32px;
+    margin-left: 5px;
+    border-radius: 4px;
+    border: transparent;
+    background-color: #d0343c;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.ques{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.common{
+    display: block;
+    margin-top: 50px;
+}
+
+#p1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+ul{
+    margin-top: 10px;
+    text-align: left;
+}
+
+ul li{
+    font-size: 17px;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+
+.back1{
+    position: relative;
+    width: 100px;
+    height: 35px;
+    background-color: #d0343c;
+    color: white;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 17px;
+    right: 25px;
+    cursor: pointer;
+}
+.back1 a{
+	color:white;
+	text-decoration:none;    
+}
+
+footer{
+    position: relative;
+    margin-top: 100px;
+    background-color: rgb(242, 244, 255);
+    background-size: cover;
+    background-position: center; 
+    height: 80px;
+    width: 100%; 
+    align-items: center;
+    text-align: center;
+    padding-top: 32px;
+    box-sizing: border-box;
+}
+
+footer p{
+    color: lightgray;
+}
